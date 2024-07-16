@@ -5,7 +5,7 @@ import clubLogo from "./assets/GolfClubLogo.svg";
 const NavBar = () => {
     // {/* <img src={clubLogo} alt="club logo" /> */} need to implement a stylable svg
     return (
-        <nav className="navBar">
+        <div className="navBar">
             <div className="menu">
                 <div className="title"> May Shaw Golf Genius </div>
                 <div className="NavItems">
@@ -15,7 +15,7 @@ const NavBar = () => {
                     <div className=""> Contact Me </div>
                 </div>
             </div>
-        </nav>
+        </div>
     );
 };
 export default NavBar;
