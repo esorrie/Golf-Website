@@ -1,13 +1,14 @@
 import React from "react";
 import "./NavBar.css";
-import clubLogo from "./assets/GolfClubLogo.svg";
+import clubLogo from "./assets/logos/GolfClubLogo.jpg";
 
 const NavBar = () => {
-    // {/* <img src={clubLogo} alt="club logo" /> */} need to implement a stylable svg
+    
     return (
         <div className="navBar">
             <div className="menu">
                 <div className="title"> May Shaw Golf Genius </div>
+                <img className="clubLogo" src={clubLogo} alt="club logo" /> {/* adjust styling */}
                 <div className="NavItems">
                     <div className="item"> ******* </div>
                     <div className="item"> Lessons </div>
