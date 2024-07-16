@@ -1,19 +1,40 @@
-.nav {
-    background:
-    linear-gradient(180deg, rgba(74, 74, 74, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
-    padding-left: 9.4%;
-    padding-right: 10.8%;
+.navBar {
+    background: linear-gradient(
+        180deg,
+        rgba(115, 115, 115) 10%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    padding-left: 115px;
+    padding-right: 115px;
     width: 100%;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap; /* stops entities from being off the page */
-    align-items: center; /* formats to the center of the container height */
-    margin-top: 31px;
-    margin-bottom: 31px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    color: rgb(255 255 255);
+    font-size: 1.5rem;
+    line-hegiht: 2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.NavItems {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255 255 255);
+    font-size: 1.25rem;
+    line-hegiht: 1.75rem;
+    font-weight: 400;
+}
+
+.item {
+    margin-right: 30px;
 }
