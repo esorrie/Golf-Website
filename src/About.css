@@ -1,0 +1,32 @@
+.IntroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 150px;
+    padding-right: 115px;
+    padding-left: 115px;
+    color: rgb(255 255 255);
+}
+
+.Title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.Intro {
+    font-size: 1rem;
+    line-hegiht: 1.5rem;
+    font-weight: 400;
+}
+
+.QualTitle {
+    margin-top: 25px;
+}
+
+.quals {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
